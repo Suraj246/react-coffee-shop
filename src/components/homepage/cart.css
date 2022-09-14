@@ -1,0 +1,167 @@
+
+.viphidden{
+    background: #373333;
+    color: white;
+    width:fit-content;
+    height:80vh;
+    padding-right: 2rem;
+    z-index: 1;
+    display:flex;
+    flex-direction: column;
+    bottom: 0;
+    /* left: 64%; */
+    right: 1%;
+    top: 13%; 
+    position:fixed;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    transition:all .2s linear;
+}
+@media (max-width:1532px) {
+    .viphidden{
+        top: 14%;
+    }    
+}
+@media (max-width:1024px) {
+    .viphidden{
+        top: 16%;
+    }    
+}
+@media (max-width:1280px) {
+    .viphidden{
+        top: 13.4%;
+    }    
+}
+@media (max-width:912px) {
+    .viphidden{
+        top: 5.4%;
+    }    
+}
+@media (max-width:912px) {
+    .viphidden{
+        top:9%;
+    }    
+}
+@media (max-width:768px) {
+    .viphidden{
+        top: 9%;
+    }    
+}
+@media (max-width:540px) {
+    .viphidden{
+        top: 9%;
+    }    
+    
+}
+@media (max-width:412px) {
+    .viphidden{
+        top: 7%;
+        width:100%
+    }   
+}
+@media (max-width:375px) {
+    .viphidden{
+        top: 10%;
+    }   
+}
+::-webkit-scrollbar{
+    width:4px;
+}
+.viphidden::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e00000;
+}
+.flex-btn{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+.flex-btn button{
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border:none;
+
+}
+  .img-cart{
+    width:10rem;
+    height:9rem;
+  }
+  .block{
+    width: fit-content;
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+    /* border: 1px solid rgb(110, 98, 98); */
+    transition: 0.3s;
+  }
+  .block:hover{
+    background: #272323;
+    transform: translate(14px,-1px) ;
+    
+  }
+.cart-details{
+    display: block;
+}
+.cart-name{
+    display: flex;
+    /* border: 1px solid #000; */
+    width: 20vw;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.btn-plus{
+    cursor: pointer;
+    background-color:rgb(50, 35, 35);
+    color: white;
+    border: none;
+}
+.cart-quantity{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.total{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem;
+    align-items: center;
+    gap: 20.5vw;
+    width: 100%;
+    margin-bottom: 2vw;
+    font-size: 1.2rem;
+}
+.viphidden button{
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+.cart-btn{
+    /* background-color: #fff; */
+    color: white;
+}
+.bill-order{
+    background-color: rgb(50, 137, 174);
+    border:none;
+    line-height: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    transition:all .2s linear;
+}
+.bill-order:hover{
+    background-color: rgb(27, 104, 134);
+
+}
+.btn-cart-delete{
+    border: none;
+    background-color: red;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
